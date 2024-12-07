@@ -1,27 +1,26 @@
-# AngularTemplate
+<h1 align="center">api-base-net8 · Frontend</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/Angular-18-red" alt="Angular 18">
+</p>
+<p align="center">
+  🔗 <a href="https://github.com/AugustoOmena/Frontend-api-base-net8">Veja também: api-base-net8 · Backend</a>
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.3.
+<p align="center">
+  Frontend do projeto api-base-net8, desenvolvido em Angular 18, para autenticação e acesso a áreas restritas com design moderno e responsivo.<br/>
 
-## Development server
+  
+</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<div align="center">
+  <img style="width: 290px" src="https://github.com/user-attachments/assets/b3fcd4b9-dd45-41cd-b8c7-f3f790c0e1ff" />
+  <img style="width: 290px" src="https://github.com/user-attachments/assets/485c0e30-5d96-41bc-8865-54cefe3d0388" />
+  <img style="width: 330px" src="https://github.com/user-attachments/assets/2f135e54-8d14-4597-b7cf-0f1823a0a715" />
+</div>
 
-## Code scaffolding
+## Contact
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+For inquiries or support, please contact me through the following channels:
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- **Email**: augusto.n.omena@gmail.com
+- **LinkedIn**: [august-omena](https://www.linkedin.com/in/augusto-omena/)
