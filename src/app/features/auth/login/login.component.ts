@@ -31,9 +31,10 @@ export class LoginComponent implements OnInit {
       password: this.fb.control('', [Validators.required]),
     });
 
-    // Recupere a mensagem de erro da URL
+    // Recupere mensagens da URL
     this.route.queryParams.subscribe(params => {
       this.errorMessage = params['error'] || '';
+      this.successMessage = params['success'] || '';
     });
   }
 
@@ -41,17 +42,17 @@ export class LoginComponent implements OnInit {
     this.errorMessage = '';
     this.successMessage = '';
     this.loginService.login(this.loginForm.value.email, this.loginForm.value.password)
-      .subscribe( 
-        data => {
-          this.successMessage = `Login Realizado com sucesso, Bem vindo!`;
+      .subscribe({
+        next: (data) => {
+          this.errorMessage = data.data.error;
           console.log(data.data.accessToken)
           localStorage.setItem('accessToken', data.data.accessToken);
           this.router.navigate(['home']);
         },
-        error => {
+        error: (error) => {
           this.errorMessage = error.error;
           localStorage.removeItem('accessToken');
         }
-      );
+      });
   }
 }
